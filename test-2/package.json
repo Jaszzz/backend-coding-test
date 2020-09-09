@@ -1,0 +1,29 @@
+{
+  "name": "backend-coding-test",
+  "version": "1.0.0",
+  "description": "A coding assessment for EID backend interviews",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "EID"
+  ],
+  "author": "Bo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "sqlite3": "^4.0.6",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
+  }
+}
